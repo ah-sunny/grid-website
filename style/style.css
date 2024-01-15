@@ -29,3 +29,37 @@ body{
    "f   f   f   f   f   f   f   f"
     ;
 }
+
+/* responsive part  for small device*/
+
+@media screen and (max-width: 576px) {
+    body{
+        display: grid;
+        grid-template-areas: 
+       " h  "
+       "n  "
+       "m  "
+       "side"
+       "ad"
+       "f "
+        ;
+    }
+}
+
+/* responsive part  for medium device*/
+
+@media screen and (min-width: 576px) and (max-width: 996px) {
+    body{
+        display: grid;
+        grid-template-areas: 
+       " h      h   h "
+       "n       n    n"
+       "side    m   m "
+       "ad      f   f"
+        ;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+}
