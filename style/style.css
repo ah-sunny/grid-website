@@ -1,0 +1,5 @@
+header, nav, .main_part, .sidebar, .advertise, footer{
+    background-color: rgb(243, 195, 136);
+    border: 2px solid rgb(105, 60, 2);
+    margin: 4px;
+}
